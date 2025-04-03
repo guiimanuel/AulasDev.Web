@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Imagem</title>
+
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 50%;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, sans-serif;
+        }
+
+        th{
+            border: 1px solid black
+        }
+
+        td{
+            border: 1px solid black;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        thead{
+            background-color: blue;
+            color: white;
+            font-style: italic;
+
+        }
+
+        tr:nth-child(even){
+            background-color: aqua;
+        }
+
+        tr:hover{
+            background-color: lightblue;
+        }
+
+        p{ 
+            text-decoration: underline;
+            font-weight: 200;
+            font-style: italic
+        }
+    </style>
+</head>
+<body>
+
+    <p> texto de exemplo </p>
+   
+    <table>
+        <thead>
+            <td>Código</td>
+            <td>Animal</td>
+            <td>ícone</td>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>nautico</td>
+                <td>&#128005</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>retro</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>santa</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
